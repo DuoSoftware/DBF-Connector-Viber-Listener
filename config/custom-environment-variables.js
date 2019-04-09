@@ -1,6 +1,5 @@
 module.exports = {
     "Host":    {
-
         "secret": "HOST_SECRET",
         "company": "HOST_COMPANY",
         "tenant": "HOST_TOKEN",
@@ -17,6 +16,7 @@ module.exports = {
         "authToken": "VIBER_AUTH_TOKEN",
         "name": "VIBER_BOT_NAME",
         "avatar": "VIBER_BOT_AVATAR",
-        "webhookurl":"VIBER_WEBHOOK_URL"
+        "webhookurl":"VIBER_WEBHOOK_URL",
+        "viberConnectorURL": "VIBER_CONNECTOR_URL"
     }
 };

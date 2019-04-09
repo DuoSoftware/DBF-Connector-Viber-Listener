@@ -86,6 +86,9 @@ bot.on(BotEvents.MESSAGE_RECEIVED, function (message, response) {
     };
     var myJSON = JSON.stringify(myObj);
 
+    console.log("\n ========Input to Viber connector========");
+    console.log(myJSON);
+
     request({
         method: "POST",
         url: uri,
@@ -104,6 +107,8 @@ bot.on(BotEvents.MESSAGE_RECEIVED, function (message, response) {
                 // console.log(_response);
                 // console.log(_response.body);
                 resposeObj = JSON.parse(_response.body);
+
+                console.log("\n ========Final output to Viber========");
                 console.log(resposeObj);
                 // console.log(message);
                 // console.log(response);

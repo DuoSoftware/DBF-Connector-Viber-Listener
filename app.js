@@ -101,8 +101,8 @@ bot.on(BotEvents.MESSAGE_RECEIVED, function (message, response) {
                 // let jsonString = messageFormatter.FormatMessage(undefined, "Speech to text has failed", false, undefined);
                 // reject(jsonString);
             } else {
-                console.log(_response);
-                console.log(_response.body);
+                // console.log(_response);
+                // console.log(_response.body);
                 resposeObj = JSON.parse(_response.body);
                 console.log(resposeObj);
                 // console.log(message);

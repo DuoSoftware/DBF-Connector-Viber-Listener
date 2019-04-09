@@ -40,7 +40,7 @@ bot.on(BotEvents.MESSAGE_RECEIVED, function (message, response) {
 
     let uri = config.Viber.viberConnectorURL + "/ViberConnectorAPI/message";
 
-    console.log(response);
+    // console.log(response);
 
     //     authToken:"4602e2beceb3cd4f-c39c57abeb6abdde-94f1290d3cfc416d"
     // avatar:"http://www.facetone.com/wp-content/uploads/2016/06/facetone-logo.png"
@@ -58,7 +58,7 @@ bot.on(BotEvents.MESSAGE_RECEIVED, function (message, response) {
     // name:"Dilshan Kaluarachchi"
 
 
-    console.log(message);
+    // console.log(message);
     // TextMessage {text: "Hi", timestamp: 1554445674545, token: "5294838612724375524", trackingData: Object, keyboard: null, …}
     // app.js:45
     // keyboard:null
